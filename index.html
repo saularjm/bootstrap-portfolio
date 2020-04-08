@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+      #headshot {
+        transform: rotate(90deg);
+      }
+    </style>
+
 </head>
 <body class="bg-light">
     <!--Navbar-->
@@ -21,14 +27,16 @@
     
     <!--Main content-->  
       <div class="container">
+        <div class="jumbotron">
         <div class="row">
           <div class="col-md-8">
             <div class="page-header mb-4">
               <h1>About Me</h1>
+              <hr />
             </div>
             <div class="row">
-                  <div class="col-md-3">
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail img-fluid">
+                  <div class="col-md-3 padding:20px">
+                    <img src="ME.JPG" alt="Placeholder" class="img-thumbnail img-responsive" id="headshot">
                   </div>
                   <div class="col-md-9">
                     <p>
@@ -43,6 +51,7 @@
             </div>
           </div>
         </div>
+      </div>
        </div> 
 </body>
 </html>
