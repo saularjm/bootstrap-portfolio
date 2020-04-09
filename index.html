@@ -3,56 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <style>
-      #headshot {
-        transform: rotate(90deg);
-      }
-    </style>
 
+    <title>About Me</title>
+
+    <!--Bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   
 </head>
+
 <body class="bg-light">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
-        <span class="navbar-brand mb-1 h1">Saular Moaddeli</span>
-        <div class="ml-auto" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+
+    <!--Navbar header-->
+    <span class="navbar-brand mb-1 h1">Saular Moaddeli</span>
+
+      <!--Nav links-->
+      <div class="ml-auto" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
-      </nav>
+      </div>
+  </nav>
     
-    <!--Main content-->  
-      <div class="container">
-        <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="page-header mb-4">
-              <h1>About Me</h1>
-              <hr />
+  <!--Main content-->  
+  <div class="container">
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      
+      <!--Row 1 in Jumbotron-->
+      <div class="row">
+
+        <!--Column-8-->
+        <div class="col-md-8">
+
+          <!--Header-->
+          <div class="page-header mb-4">
+            <h1>About Me</h1>
+            <hr />
+          </div>
+
+          <!--Row 1 in column-->
+          <div class="row">
+
+            <!--Column-3 Image-->
+            <div class="col-md-3 padding:20px">
+              <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail img-responsive" id="headshot">
             </div>
-            <div class="row">
-                  <div class="col-md-3 padding:20px">
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail img-responsive" id="headshot">
-                  </div>
-                  <div class="col-md-9">
-                    <p>
-                      My name is Saular Moaddeli. I spent most of my 20's as a personal trainer, but I've changed
-                      my career course to coding, including programming in Java and web development.
-                    </p>
-                    <p>
-                        I'm from Salt Lake City, Utah, lived in Los Angeles for 7 years, and now I live in Roseville, CA
-                        with my wife and dog.
-                    </p>
-                  </div> 
-            </div>
+
+            <!--Column-9 Paragraph-->
+            <div class="col-md-9">
+              <p>
+                My name is Saular Moaddeli. I spent most of my 20's as a personal trainer, but I've changed
+                my career course to coding, including programming in Java and web development.
+              </p>
+              <p>
+                I'm from Salt Lake City, Utah, lived in Los Angeles for 7 years, and now I live in Roseville, CA
+                with my wife and dog.
+              </p>
+            </div> 
           </div>
         </div>
       </div>
-       </div> 
+    </div>
+  </div> 
 </body>
 </html>
 

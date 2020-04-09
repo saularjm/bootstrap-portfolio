@@ -3,59 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact</title>
+
+    <!--Bootstrap stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-<body class="bg-light">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
-        <span class="navbar-brand mb-1 h1">Saular Moaddeli</span>
-        <div class="ml-auto" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-          </div>
-        </div>
-      </nav>
 
-    <!--Main content-->  
-    <div class="container">
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-8">
-              <!--Header-->
-            <div class="page-header mb-4">
-              <h1>Contact</h1>
-              <hr />
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                  <!--Contact form-->
-                  
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Name</label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                        </form>
-                        <button type="button" class="btn btn-info">Submit</button>
-                    </div>
-                
-              
-            </div>
+<body class="bg-light">
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+
+    <!--Navbar header-->
+    <span class="navbar-brand mb-1 h1">Saular Moaddeli</span>
+
+      <!--Nav links-->
+      <div class="ml-auto" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </div>
+      </div>
+  </nav>
+
+  <!--Main content-->  
+  <div class="container">
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+
+      <!--Row 1 in Jumbotron-->
+      <div class="row">
+
+        <!--Column-8-->
+        <div class="col-md-8">
+
+          <!--Header-->
+          <div class="page-header mb-4">
+            <h1>Contact</h1>
+            <hr />
+          </div>
+
+          <!--Row 1 in column-->
+          <div class="row">
+
+            <!--Column-12 form-->
+            <div class="col-md-12">
+
+              <!--Contact form-->
+              <form>
+
+                <!--Name-->
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                </div>
+
+                <!--Email-->
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <!--Message-->
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+
+              <!--Submit button-->
+              <button type="button" class="btn btn-info">Submit</button>
+            </div>  
           </div>
         </div>
       </div>
-       </div>  
-    
+    </div>
+  </div>     
 </body>
 </html>
