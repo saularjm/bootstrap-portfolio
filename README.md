@@ -25,6 +25,7 @@ This page is a collection of my projects. It includes:
   - Bootstrap cards
     - Each card corresponds to a project. 
     - They have an image, a title, brief description, and link to the project.
+*Placeholders are in use now, until more projects can be filled in*    
 
 # Contact
 
@@ -34,4 +35,5 @@ This page is a Bootstrap contact form. It includes:
   - A header
   - A form with text-boxes for Name, Email, and a Message
   - A Submit button
+*Form is not functional now, only HTML/CSS are in use*  
 
