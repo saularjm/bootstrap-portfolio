@@ -1,4 +1,4 @@
-# bootstrap-portfolio
+# Bootstrap Portfolio
 
 # Overview
 
