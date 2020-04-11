@@ -4,7 +4,7 @@
 
 In this project, I created a portfolio website for myself, powered by Bootstrap.
 It includes an About Me page, a Contact form page, and a Portfolio page.
-All the pages use Bootstrap's Jumbotron, Navbar, Footer and grid layout utilities.
+All the pages use Bootstrap's Jumbotron, Navbar, and grid layout utilities.
 This site is also responsive, for viewing on different size screen.
 
 # About Me
