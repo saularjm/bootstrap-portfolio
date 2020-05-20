@@ -33,4 +33,4 @@ This page is a collection of my projects. It includes:
    
 ### Check it out!
 
-- Link to deployed portfolio site: https://saularjm.github.io/bootstrap-portfolio/
+- Link to deployed portfolio site: https://saularjm.github.io/portfolio/
